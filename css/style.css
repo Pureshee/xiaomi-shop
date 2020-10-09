@@ -1,0 +1,54 @@
+body{
+  font-size: 12px;
+}
+.page-top{
+  background-color: #323232;
+  height: 38px;
+}
+.container{
+  width: 1206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-top .top-lf{
+  float: left;
+}
+.page-top .top-lf a{
+  color: #a2a2a2;
+  line-height: 38px;
+}
+.page-top .top-lf a:hover{
+  color: #fff;
+}
+.page-top .top-lf span{
+  color: #3f3f3f;
+  padding: 0 3px;
+}
+.page-top .top-rt .login{
+  line-height: 38px;
+  float: right;
+}
+.page-top .top-rt .login a{
+  color: #a2a2a2;
+}
+.page-top .top-rt .login a:hover{
+  color: #fff;
+}
+.page-top .top-rt .login span{
+  color: #3f3f3f;
+  padding: 0 3px;
+}
+.page-top .car-box{
+  float: right;
+  line-height: 38px;
+}
+.page-top .car-box a{
+  color: #a2a2a2;
+}
+.page-top .pop {
+  width: 118px;
+  border: 1px solid red;
+}
+.page-top .pop .list{
+  /* display: block; */
+}
