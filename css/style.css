@@ -41,14 +41,52 @@ body{
 .page-top .car-box{
   float: right;
   line-height: 38px;
+  position: relative;
 }
 .page-top .car-box a{
   color: #a2a2a2;
 }
+.page-top .car-box:hover .pop{
+  display: block;
+}
 .page-top .pop {
-  width: 118px;
-  border: 1px solid red;
+  width: 360px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  display: none;
 }
 .page-top .pop .list{
-  /* display: block; */
+  max-height: 350px;
+  overflow-y: auto;
+}
+.page-top .pop .list li{
+  height: 70px;
+}
+.page-top .pop .list img{
+  height: 70px;
+  width: 70px;
+  float: left;
+}
+.page-top .pop .list .txt{
+  float: left;
+  line-height: 70px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-top .pop .list .num{
+  float: right;
+}
+.page-top .pop .list .num i{
+  float: right;
+  line-height: 70px;
+  margin-right: 20px;
+}
+.page-top .pop .list .num h4{
+  float: right;
+  margin-right: 30px;
 }
