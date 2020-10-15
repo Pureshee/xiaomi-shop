@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4997653",
+      "name": "xiaomi",
+      "font_class": "xiaomi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    }
+  ]
+}
